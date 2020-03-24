@@ -10,7 +10,7 @@ class ScrappedTweet:
 def write_infile(text, timestamp):
     st = ScrappedTweet(text, timestamp)
     try:
-        file_output = open("../results/result.json", "a+")
+        file_output = open("../results/result.json", "w+")
         file_output.write(json.dumps(st.__dict__))
     except OSError:
         print(e)
@@ -22,5 +22,4 @@ if __name__ == "__main__":
         for t in tweet:
             if type(t) == Tweet:
                 if t.text.startswith("TIL:"):
-                    print(t.timestamp.date())
                     write_infile(t.text, t.timestamp.date())
