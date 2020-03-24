@@ -6,7 +6,5 @@ Projeto para capturar os meus tweets que começam com TIL, onde eu registro o qu
 
 ## Tecnologias Usadas
 
-	1. twitterscraper [`Disponível aqui`_]
+	1. twitterscraper [Disponível aqui](https://github.com/taspinar/twitterscraper)
 	2. JSON (Python builtin)
-
-.. _Disponível aqui: https://github.com/taspinar/twitterscraper
