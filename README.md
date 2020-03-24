@@ -6,8 +6,8 @@ Projeto para capturar os meus tweets que começam com TIL, onde eu registro o qu
 
 ## Tecnologias Usadas
 
-	1. twitterscraper [Disponível aqui]
-	2. JSON (Python builtin)
+1. twitterscraper [Disponível aqui]
+2. JSON (Python builtin)
 
 [Disponível aqui]: https://github.com/taspinar/twitterscraper
 	
